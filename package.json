@@ -1,6 +1,6 @@
 {
   "name": "homebridge-garage-door-opener-wscreen",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Garage Door Opener plugin for Homebridge with support for an I2C Display",
   "author": "Guy Turner",
   "license": "MIT",
