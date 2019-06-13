@@ -9,10 +9,10 @@ module.exports = (homebridge) => {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
 
-  homebridge.registerAccessory('homebridge-garage-door-opener-wscreen', 'SimpleGarageDoorOpener', SimpleGarageDoorOpener);
+  homebridge.registerAccessory('homebridge-garage-door-opener-wscreen', 'GarageDoorOpener', GarageDoorOpener);
 };
 
-class SimpleGarageDoorOpener {
+class GarageDoorOpener {
   constructor (log, config) {
 
     //get config values
